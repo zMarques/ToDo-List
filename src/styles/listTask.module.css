@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 64px;
+  max-width: 736px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.painel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.painel > p {
+  font-weight: bold;
+  color: var(--blue);
+  font-size: 14px;
+}
+
+.header .painel:last-child > p {
+  color: var(--purple);
+}
+
+.painel > span {
+  background-color: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: var(--gray-200);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 24px;
+  gap: 12px;
+  margin-bottom: 50px;
+}
+
+.x {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  border-top: 1px solid var(--gray-400);
+
+  background-color: var(--gray-600);
+  padding: 64px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.x > img {
+  margin-bottom: 16px;
+}
+
+.x > div > strong {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--gray-300);
+  line-height: 1.4;
+}
+
+.x > div > p {
+  font-size: 16px;
+  font-weight: regular;
+  color: var(--gray-300);
+  line-height: 1.4;
+}
